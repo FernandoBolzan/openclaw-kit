@@ -22,3 +22,13 @@ python3 tools/validate.py --path .
 - The install process preserves existing files unless overwrite is explicit.
 - Feature packs should be installed separately as plugins.
 
+## Local paths
+
+- `config/` for editable local settings
+- `logs/` for runtime output
+- `state/` for small machine-owned markers
+- `backups/` for recovery artifacts
+
+## Verification
+
+After install, validate both the repository and the target install. The public repository should pass on its own, and the installed target should contain the generated entrypoints and runtime directories.

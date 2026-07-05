@@ -27,3 +27,17 @@ The kit includes validation, recovery, and release guidance so public changes st
 ## Result
 
 A small, reproducible, and operator-friendly foundation that can be installed and adapted without inheriting personal machine state.
+
+## Included artifacts
+
+- Public rules and routing metadata
+- Public skills for bootstrap, operations, security, plugins, validation, observability, release, and recovery
+- Installable templates for env, cron, systemd, and shell entrypoints
+- Validation tooling and release checks
+
+## Excluded artifacts
+
+- Personal machine data
+- Live tokens or private keys
+- Customer or workspace specific state
+- Product-only features that depend on private overlays

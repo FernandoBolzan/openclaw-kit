@@ -27,3 +27,11 @@ If something identifies a user, a customer, or a live deployment, it does not be
 - The repository is the source of truth for public rules and templates.
 - The installed target is the source of truth for local runtime state.
 - Plugins extend the system without mutating the public core.
+
+## Practical shape
+
+- `rules/` controls system behavior and execution metadata
+- `skills/` documents operational behavior for agents and operators
+- `templates/` contains install-time examples that become local files
+- `tools/` performs install and validation work
+- `docs/` explains the public contract

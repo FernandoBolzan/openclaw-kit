@@ -22,3 +22,10 @@
 - No user profile exports in examples
 - No product-specific automation data in the public core
 - No hidden dependencies on private paths
+
+## Review checklist
+
+- Search for personal markers before release
+- Check generated files and templates for secrets
+- Confirm docs do not mention private-only workflows
+- Validate that new skills preserve the public-core boundary
