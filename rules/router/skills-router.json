@@ -22,6 +22,21 @@
       "triggers": ["security", "secrets", "redaction", "safety", "least privilege"],
       "status": "canonical"
     },
+    "skill-openclaw-recovery": {
+      "description": "Repair broken installs and restore missing OpenClaw runtime pieces safely.",
+      "triggers": ["recovery", "restore", "repair", "fix install", "drift"],
+      "status": "canonical"
+    },
+    "skill-openclaw-release": {
+      "description": "Prepare validated OpenClaw releases and keep release notes grounded.",
+      "triggers": ["release", "tag", "version", "changelog", "publish"],
+      "status": "canonical"
+    },
+    "skill-openclaw-observability": {
+      "description": "Logs, health checks, diagnostics, and runtime signal handling.",
+      "triggers": ["observability", "health", "logs", "diagnostics", "signals"],
+      "status": "canonical"
+    },
     "skill-openclaw-plugins": {
       "description": "Plugin boundary management for private or optional feature packs.",
       "triggers": ["plugin", "plugins", "adapter", "overlay", "feature pack"],
@@ -29,4 +44,3 @@
     }
   }
 }
-

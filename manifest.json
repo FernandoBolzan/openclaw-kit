@@ -1,18 +1,29 @@
 {
   "name": "openclaw-kit",
-  "version": "0.1.0",
-  "description": "Operational core for OpenClaw deployments.",
+  "version": "0.1.1",
+  "description": "Operational core for OpenClaw deployments: rules, routing, validation, recovery, observability, and safe install primitives.",
   "license": "MIT",
   "install": {
     "defaultTarget": "~/.openclaw",
     "preserveExisting": true,
-    "dryRunByDefault": true
+    "dryRunByDefault": true,
+    "installPaths": {
+      "rules": "rules",
+      "skills": "skills",
+      "tools": "tools",
+      "bin": "bin",
+      "config": "config",
+      "docs": "docs",
+      "systemd": "systemd",
+      "cron": "cron"
+    }
   },
   "layout": {
     "rules": "rules/",
     "skills": "skills/",
     "templates": "templates/",
-    "docs": "docs/"
+    "docs": "docs/",
+    "tools": "tools/"
   },
   "exclusions": [
     ".omx/",
@@ -27,7 +38,8 @@
     "**/*.token",
     "**/*posts-database.json",
     "**/*profile-posts-scan*",
-    "**/*viral-queue*"
+    "**/*viral-queue*",
+    "**/*state.json",
+    "**/*backup*"
   ]
 }
-

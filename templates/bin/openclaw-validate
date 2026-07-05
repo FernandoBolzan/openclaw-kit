@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+OPENCLAW_HOME="${OPENCLAW_HOME:-$HOME/.openclaw}"
+exec python3 "$OPENCLAW_HOME/tools/validate.py" --path "$OPENCLAW_HOME" "$@"
+

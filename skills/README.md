@@ -1,6 +1,13 @@
 # Skills
 
-This directory contains generic OpenClaw skills only.
+This directory contains the public OpenClaw skill set.
 
-Feature-specific automations belong in private overlays or separate plugin repos.
+Current coverage:
 
+- Bootstrap and install
+- Operations and maintenance
+- Validation and release gating
+- Recovery and observability
+- Security and plugin boundaries
+
+Feature-specific automations belong in private overlays or separate plugin repositories.

@@ -13,9 +13,17 @@
     "skill-openclaw-security": {
       "mayInvoke": ["skill-openclaw-validate"]
     },
+    "skill-openclaw-recovery": {
+      "mayInvoke": ["skill-openclaw-validate", "skill-openclaw-security"]
+    },
+    "skill-openclaw-release": {
+      "mayInvoke": ["skill-openclaw-validate", "skill-openclaw-security", "skill-openclaw-observability"]
+    },
+    "skill-openclaw-observability": {
+      "mayInvoke": ["skill-openclaw-validate"]
+    },
     "skill-openclaw-plugins": {
       "mayInvoke": ["skill-openclaw-security", "skill-openclaw-validate"]
     }
   }
 }
-

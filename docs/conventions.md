@@ -19,3 +19,9 @@
 - Explicit confirmation for destructive actions
 - Minimal context, maximal verification
 
+## Failure policy
+
+- Missing configuration is a hard error.
+- Missing runtime state is a recoverable condition.
+- Missing secrets is not recoverable inside the public core.
+- If validation cannot explain a failure clearly, the tool should fail closed.

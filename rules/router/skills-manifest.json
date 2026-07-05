@@ -29,6 +29,27 @@
       "mirrorEverywhere": true,
       "status": "canonical"
     },
+    "skill-openclaw-recovery": {
+      "description": "Repair broken installs and restore missing OpenClaw runtime pieces safely.",
+      "category": "ops",
+      "risk": "medium",
+      "mirrorEverywhere": true,
+      "status": "canonical"
+    },
+    "skill-openclaw-release": {
+      "description": "Prepare validated OpenClaw releases and keep release notes grounded.",
+      "category": "ops",
+      "risk": "medium",
+      "mirrorEverywhere": true,
+      "status": "canonical"
+    },
+    "skill-openclaw-observability": {
+      "description": "Logs, health checks, diagnostics, and runtime signal handling.",
+      "category": "ops",
+      "risk": "medium",
+      "mirrorEverywhere": true,
+      "status": "canonical"
+    },
     "skill-openclaw-plugins": {
       "description": "Plugin boundary management for private or optional feature packs.",
       "category": "ops",
@@ -38,4 +59,3 @@
     }
   }
 }
-

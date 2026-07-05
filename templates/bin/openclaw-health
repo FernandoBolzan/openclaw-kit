@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+OPENCLAW_HOME="${OPENCLAW_HOME:-$HOME/.openclaw}"
+
+test -d "$OPENCLAW_HOME" || {
+  echo "missing OPENCLAW_HOME: $OPENCLAW_HOME" >&2
+  exit 1
+}
+
+test -f "$OPENCLAW_HOME/manifest.json" || {
+  echo "missing manifest.json" >&2
+  exit 1
+}
+
+exec python3 "$OPENCLAW_HOME/tools/validate.py" --path "$OPENCLAW_HOME"
+

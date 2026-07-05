@@ -16,3 +16,9 @@
 - Redact identifiers from docs and templates
 - Run validation before release
 
+## Hard limits
+
+- No live tokens in tests
+- No user profile exports in examples
+- No product-specific automation data in the public core
+- No hidden dependencies on private paths

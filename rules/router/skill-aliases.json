@@ -11,8 +11,13 @@
     "backup": "skill-openclaw-ops",
     "security": "skill-openclaw-security",
     "secrets": "skill-openclaw-security",
+    "recovery": "skill-openclaw-recovery",
+    "restore": "skill-openclaw-recovery",
+    "release": "skill-openclaw-release",
+    "publish": "skill-openclaw-release",
+    "observability": "skill-openclaw-observability",
+    "healthcheck": "skill-openclaw-observability",
     "plugin": "skill-openclaw-plugins",
     "overlay": "skill-openclaw-plugins"
   }
 }
-

@@ -22,3 +22,8 @@ Private machine-specific settings, secrets, logs, caches, and runtime state.
 
 If something identifies a user, a customer, or a live deployment, it does not belong in the public core.
 
+## Runtime contract
+
+- The repository is the source of truth for public rules and templates.
+- The installed target is the source of truth for local runtime state.
+- Plugins extend the system without mutating the public core.

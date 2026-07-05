@@ -14,6 +14,7 @@ jobs:
           python-version: "3.11"
       - name: Validate repository
         run: python3 tools/validate.py --path .
-      - name: Dry-run install
-        run: bash install.sh --target "$HOME/.openclaw" --dry-run
-
+      - name: Install into temp target
+        run: python3 tools/install.py --target "$RUNNER_TEMP/openclaw"
+      - name: Validate installed target
+        run: python3 tools/validate.py --path . --installed-target "$RUNNER_TEMP/openclaw"

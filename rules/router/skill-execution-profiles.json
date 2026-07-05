@@ -15,7 +15,11 @@
       "maxSkills": 5,
       "loadReferences": "progressive",
       "validation": "lint-typecheck-test-or-doctor"
+    },
+    "release": {
+      "maxSkills": 4,
+      "loadReferences": "progressive",
+      "validation": "repo-validation-plus-release-checklist"
     }
   }
 }
-
