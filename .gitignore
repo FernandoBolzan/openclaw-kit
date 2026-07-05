@@ -1,0 +1,39 @@
+# Runtime state
+.omx/
+logs/
+data/
+state/
+tmp/
+cache/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+
+# Secrets and local overlays
+.env
+.env.*
+*.secret
+*.secrets
+*.token
+vault/
+credentials/
+
+# Generated or imported exports
+remote-artifacts/
+remote-openclaw-inspect/
+remote-openclaw-patches/
+jarvis-openclaw-fixes/
+openclaw-remote-work/
+
+# GitHub and editor noise
+.DS_Store
+.idea/
+.vscode/
+

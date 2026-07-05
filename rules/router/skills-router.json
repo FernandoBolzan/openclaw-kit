@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "purpose": "Compact routing index for OpenClaw Kit.",
+  "skills": {
+    "skill-openclaw-bootstrap": {
+      "description": "Bootstrap a fresh OpenClaw environment and install the public core safely.",
+      "triggers": ["bootstrap", "install", "initial setup", "setup", "provision"],
+      "status": "canonical"
+    },
+    "skill-openclaw-validate": {
+      "description": "Validate layout, security boundaries, and install readiness.",
+      "triggers": ["validate", "check", "verify", "health", "sanity check"],
+      "status": "canonical"
+    },
+    "skill-openclaw-ops": {
+      "description": "Operational tasks for cron, systemd, backups, logs, and recovery.",
+      "triggers": ["ops", "cron", "systemd", "backup", "logs", "recovery"],
+      "status": "canonical"
+    },
+    "skill-openclaw-security": {
+      "description": "Secrets hygiene, redaction, least privilege, and safety checks.",
+      "triggers": ["security", "secrets", "redaction", "safety", "least privilege"],
+      "status": "canonical"
+    },
+    "skill-openclaw-plugins": {
+      "description": "Plugin boundary management for private or optional feature packs.",
+      "triggers": ["plugin", "plugins", "adapter", "overlay", "feature pack"],
+      "status": "canonical"
+    }
+  }
+}
+

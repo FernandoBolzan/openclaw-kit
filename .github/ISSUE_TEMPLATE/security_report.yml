@@ -1,0 +1,13 @@
+name: Security report
+description: Report a security issue privately
+title: "[Security]: "
+labels: [security]
+body:
+  - type: textarea
+    id: report
+    attributes:
+      label: Security issue
+      description: Do not include secrets or personal data in the report body.
+    validations:
+      required: true
+

@@ -1,0 +1,9 @@
+[Unit]
+Description=OpenClaw health check
+
+[Service]
+Type=oneshot
+WorkingDirectory=%h/.openclaw
+EnvironmentFile=-%h/.openclaw/config/openclaw.env
+ExecStart=/usr/bin/env bash -lc '%h/.openclaw/bin/openclaw-health'
+

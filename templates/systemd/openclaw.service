@@ -1,0 +1,16 @@
+[Unit]
+Description=OpenClaw runtime core
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=%h/.openclaw
+EnvironmentFile=-%h/.openclaw/config/openclaw.env
+ExecStart=/usr/bin/env bash -lc '%h/.openclaw/bin/openclaw-start'
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=default.target
+

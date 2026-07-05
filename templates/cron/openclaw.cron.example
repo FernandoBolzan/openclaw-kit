@@ -1,0 +1,6 @@
+# Example cron entries for a local OpenClaw installation.
+# Replace the script paths with your installed target.
+
+*/5 * * * * /usr/bin/env bash -lc 'OPENCLAW_DRY_RUN=0 "$HOME/.openclaw/bin/openclaw-health"'
+0 2 * * * /usr/bin/env bash -lc 'OPENCLAW_DRY_RUN=0 "$HOME/.openclaw/bin/openclaw-backup"'
+

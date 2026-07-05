@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "aliases": {
+    "install": "skill-openclaw-bootstrap",
+    "bootstrap": "skill-openclaw-bootstrap",
+    "validate": "skill-openclaw-validate",
+    "health": "skill-openclaw-validate",
+    "ops": "skill-openclaw-ops",
+    "cron": "skill-openclaw-ops",
+    "systemd": "skill-openclaw-ops",
+    "backup": "skill-openclaw-ops",
+    "security": "skill-openclaw-security",
+    "secrets": "skill-openclaw-security",
+    "plugin": "skill-openclaw-plugins",
+    "overlay": "skill-openclaw-plugins"
+  }
+}
+

@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "skills": {
+    "skill-openclaw-bootstrap": {
+      "description": "Bootstrap a fresh OpenClaw environment and install the public core safely.",
+      "category": "ops",
+      "risk": "low",
+      "mirrorEverywhere": true,
+      "status": "canonical"
+    },
+    "skill-openclaw-validate": {
+      "description": "Validate layout, security boundaries, and install readiness.",
+      "category": "ops",
+      "risk": "low",
+      "mirrorEverywhere": true,
+      "status": "canonical"
+    },
+    "skill-openclaw-ops": {
+      "description": "Operational tasks for cron, systemd, backups, logs, and recovery.",
+      "category": "ops",
+      "risk": "medium",
+      "mirrorEverywhere": true,
+      "status": "canonical"
+    },
+    "skill-openclaw-security": {
+      "description": "Secrets hygiene, redaction, least privilege, and safety checks.",
+      "category": "security",
+      "risk": "high",
+      "mirrorEverywhere": true,
+      "status": "canonical"
+    },
+    "skill-openclaw-plugins": {
+      "description": "Plugin boundary management for private or optional feature packs.",
+      "category": "ops",
+      "risk": "medium",
+      "mirrorEverywhere": true,
+      "status": "canonical"
+    }
+  }
+}
+

@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "profiles": {
+    "fast": {
+      "maxSkills": 1,
+      "loadReferences": false,
+      "validation": "lightest-meaningful"
+    },
+    "standard": {
+      "maxSkills": 3,
+      "loadReferences": "only-if-directly-needed",
+      "validation": "task-appropriate"
+    },
+    "deep": {
+      "maxSkills": 5,
+      "loadReferences": "progressive",
+      "validation": "lint-typecheck-test-or-doctor"
+    }
+  }
+}
+
